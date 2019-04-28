@@ -6,9 +6,9 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\db\conditions;
+namespace Yiisoft\Db\Conditions;
 
-use yii\db\Query;
+use Yiisoft\Db\Query;
 use yii\exceptions\InvalidArgumentException;
 
 /**

@@ -6,12 +6,12 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\db\conditions;
+namespace Yiisoft\Db\Conditions;
 
-use yii\db\ExpressionBuilderInterface;
-use yii\db\ExpressionBuilderTrait;
-use yii\db\ExpressionInterface;
-use yii\db\Query;
+use Yiisoft\Db\ExpressionBuilderInterface;
+use Yiisoft\Db\ExpressionBuilderTrait;
+use Yiisoft\Db\ExpressionInterface;
+use Yiisoft\Db\Query;
 
 /**
  * Class InConditionBuilder builds objects of [[InCondition]].

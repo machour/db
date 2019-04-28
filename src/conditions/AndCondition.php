@@ -6,7 +6,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\db\conditions;
+namespace Yiisoft\Db\Conditions;
 
 /**
  * Condition that connects two or more SQL expressions with the `AND` operator.

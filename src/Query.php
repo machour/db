@@ -6,13 +6,15 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\db;
+namespace Yiisoft\Db;
 
 use yii\base\Component;
 use yii\exceptions\InvalidArgumentException;
 use yii\exceptions\InvalidConfigException;
 use yii\helpers\Yii;
 use Yiisoft\Arrays\ArrayHelper;
+use Yiisoft\Db\Expressions\Expression;
+use Yiisoft\Db\Expressions\ExpressionInterface;
 
 /**
  * Query represents a SELECT SQL statement in a way that is independent of DBMS.
@@ -655,7 +657,7 @@ PATTERN;
         } elseif (!is_array($columns)) {
             $columns = preg_split('/\s*,\s*/', trim($columns), -1, PREG_SPLIT_NO_EMPTY);
         }
-        // this sequantial assignment is needed in order to make sure select is being reset
+        // this sequential assignment is needed in order to make sure select is being reset
         // before using getUniqueColumns() that checks it
         $this->select = [];
         $this->select = $this->getUniqueColumns($columns);
@@ -789,16 +791,16 @@ PATTERN;
      *
      * ```php
      * // SELECT * FROM  `user` `u`, `profile`;
-     * $query = (new \yii\db\Query)->from(['u' => 'user', 'profile']);
+     * $query = (new \Yiisoft\Db\Query)->from(['u' => 'user', 'profile']);
      *
      * // SELECT * FROM (SELECT * FROM `user` WHERE `active` = 1) `activeusers`;
-     * $subquery = (new \yii\db\Query)->from('user')->where(['active' => true])
-     * $query = (new \yii\db\Query)->from(['activeusers' => $subquery]);
+     * $subquery = (new \Yiisoft\Db\Query)->from('user')->where(['active' => true])
+     * $query = (new \Yiisoft\Db\Query)->from(['activeusers' => $subquery]);
      *
      * // subquery can also be a string with plain SQL wrapped in parenthesis
      * // SELECT * FROM (SELECT * FROM `user` WHERE `active` = 1) `activeusers`;
      * $subquery = "(SELECT * FROM `user` WHERE `active` = 1)";
-     * $query = (new \yii\db\Query)->from(['activeusers' => $subquery]);
+     * $query = (new \Yiisoft\Db\Query)->from(['activeusers' => $subquery]);
      * ```
      *
      * @return $this the query object itself

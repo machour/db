@@ -6,12 +6,12 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\db\data;
+namespace Yiisoft\Db\data;
 
 use yii\data\BaseDataProvider;
-use yii\db\Connection;
-use yii\db\Expression;
-use yii\db\Query;
+use Yiisoft\Db\Connection;
+use Yiisoft\Db\Expression;
+use Yiisoft\Db\Query;
 use yii\di\Instance;
 use yii\exceptions\InvalidConfigException;
 use yii\helpers\Yii;

@@ -6,7 +6,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\db\conditions;
+namespace Yiisoft\Db\Conditions;
 
 /**
  * Condition based on column-value pairs.

@@ -6,10 +6,10 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\db\conditions;
+namespace Yiisoft\Db\Conditions;
 
-use yii\db\ExpressionInterface;
-use yii\db\Query;
+use Yiisoft\Db\Expressions\ExpressionInterface;
+use Yiisoft\Db\Query;
 use yii\exceptions\InvalidArgumentException;
 
 /**

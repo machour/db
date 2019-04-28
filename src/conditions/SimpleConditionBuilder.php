@@ -6,11 +6,11 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yii\db\conditions;
+namespace Yiisoft\Db\Conditions;
 
-use yii\db\ExpressionBuilderInterface;
-use yii\db\ExpressionBuilderTrait;
-use yii\db\ExpressionInterface;
+use Yiisoft\Db\ExpressionBuilderInterface;
+use Yiisoft\Db\ExpressionBuilderTrait;
+use Yiisoft\Db\ExpressionInterface;
 
 /**
  * Class NotConditionBuilder builds objects of [[SimpleCondition]].
