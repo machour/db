@@ -8,7 +8,7 @@
 
 namespace Yiisoft\Db\Conditions;
 
-use yii\db\ExpressionInterface;
+use Yiisoft\Db\Expressions\ExpressionInterface;
 use yii\exceptions\InvalidArgumentException;
 
 /**

@@ -8,9 +8,9 @@
 
 namespace Yiisoft\Db\Conditions;
 
-use Yiisoft\Db\ExpressionBuilderInterface;
-use Yiisoft\Db\ExpressionBuilderTrait;
-use Yiisoft\Db\ExpressionInterface;
+use Yiisoft\Db\Expressions\ExpressionBuilderInterface;
+use Yiisoft\Db\Expressions\ExpressionBuilderTrait;
+use Yiisoft\Db\Expressions\ExpressionInterface;
 
 /**
  * Class NotConditionBuilder builds objects of [[SimpleCondition]].

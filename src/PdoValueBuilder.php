@@ -8,6 +8,9 @@
 
 namespace Yiisoft\Db;
 
+use Yiisoft\Db\Expressions\ExpressionBuilderInterface;
+use Yiisoft\Db\Expressions\ExpressionInterface;
+
 /**
  * Class PdoValueBuilder builds object of the [[PdoValue]] expression class.
  *

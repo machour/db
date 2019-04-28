@@ -8,9 +8,9 @@
 
 namespace Yiisoft\Db\Conditions;
 
-use yii\db\ExpressionBuilderInterface;
-use yii\db\ExpressionBuilderTrait;
-use yii\db\ExpressionInterface;
+use Yiisoft\Db\Expressions\ExpressionBuilderInterface;
+use Yiisoft\Db\Expressions\ExpressionBuilderTrait;
+use Yiisoft\Db\Expressions\ExpressionInterface;
 use yii\db\Query;
 use Yiisoft\Arrays\ArrayHelper;
 

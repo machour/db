@@ -8,6 +8,10 @@
 
 namespace Yiisoft\Db;
 
+use Yiisoft\Db\Expressions\ExpressionBuilderInterface;
+use Yiisoft\Db\Expressions\ExpressionBuilderTrait;
+use Yiisoft\Db\Expressions\ExpressionInterface;
+
 /**
  * Class QueryExpressionBuilder is used internally to build [[Query]] object
  * using unified [[QueryBuilder]] expression building interface.

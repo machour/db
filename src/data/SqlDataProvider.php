@@ -10,7 +10,7 @@ namespace Yiisoft\Db\data;
 
 use yii\data\BaseDataProvider;
 use Yiisoft\Db\Connection;
-use Yiisoft\Db\Expression;
+use Yiisoft\Db\Expressions\Expression;
 use Yiisoft\Db\Query;
 use yii\di\Instance;
 use yii\exceptions\InvalidConfigException;
