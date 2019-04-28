@@ -10,8 +10,8 @@ namespace Yiisoft\Db\Tests;
 
 use Yiisoft\Db\Conditions\BetweenColumnsCondition;
 use Yiisoft\Db\Expressions\Expression;
-use Yiisoft\Db\mysql\QueryBuilder as MysqlQueryBuilder;
-use Yiisoft\Db\pgsql\QueryBuilder as PgsqlQueryBuilder;
+use Yiisoft\Db\MySQL\QueryBuilder as MysqlQueryBuilder;
+use Yiisoft\Db\PgSQL\QueryBuilder as PgsqlQueryBuilder;
 use Yiisoft\Db\Query;
 use Yiisoft\Db\QueryBuilder;
 use Yiisoft\Db\Schema;

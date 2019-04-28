@@ -6,7 +6,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace Yiisoft\Db;
+namespace Yiisoft\Db\Constraints;
 
 /**
  * IndexConstraint represents the metadata of a table `INDEX` constraint.

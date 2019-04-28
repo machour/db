@@ -6,7 +6,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace Yiisoft\Db\data;
+namespace Yiisoft\Db\Data;
 
 use yii\data\BaseDataProvider;
 use Yiisoft\Db\Connection;

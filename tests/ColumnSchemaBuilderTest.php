@@ -9,7 +9,7 @@
 namespace Yiisoft\Db\Tests;
 
 use Yiisoft\Db\ColumnSchemaBuilder;
-use Yiisoft\Db\Expression;
+use Yiisoft\Db\Expressions\Expression;
 use Yiisoft\Db\Schema;
 
 abstract class ColumnSchemaBuilderTest extends DatabaseTestCase

@@ -14,7 +14,6 @@ use Yiisoft\Db\Connection;
 use Yiisoft\Db\DataReader;
 use Yiisoft\Db\Exception;
 use Yiisoft\Db\Expressions\Expression;
-use Yiisoft\Db\Expressions\JsonExpression;
 use Yiisoft\Db\Query;
 use Yiisoft\Db\Schema;
 
